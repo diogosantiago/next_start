@@ -40,9 +40,15 @@ const Home: NextPage = () => {
             </a>
           </Link>
 
-          <Link href="path/1">
+          <Link href="path_without/1">
             <a className={styles.card}>
-              <h2>ISG StaticPath</h2>
+              <h2>ISG StaticPath Without Revalidate</h2>
+            </a>
+          </Link>
+
+          <Link href="path_with/1">
+            <a className={styles.card}>
+              <h2>ISG StaticPath With Revalidate</h2>
             </a>
           </Link>
 
