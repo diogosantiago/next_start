@@ -86,40 +86,42 @@ const ReactPage: NextPage = () => {
         <br />
         <br />
         <br /> */}
-        <div style={{ backgroundColor: "blue" }}>
-          <img src="https://pentagrama.com.br/img/logo.png" />
-          <br />
-          <img src="https://designculture.com.br/wp-content/uploads/2017/06/muié.png" width="300" />
-        </div>
+        <div style={{display: "flex", flexDirection: "row"}}>
+          <div style={{ backgroundColor: "blue" }}>
+            <img src="https://pentagrama.com.br/img/logo.png" />
+            <br />
+            <img src="https://designculture.com.br/wp-content/uploads/2017/06/muié.png" width="300" />
+          </div>
 
-        <div style={{ backgroundColor: "blue" }}>
-          <Image
-            src="https://pentagrama.com.br/img/logo.png"
-            width={257}
-            height={55}
-          />
-          <br />
-          <Image
-            src="https://designculture.com.br/wp-content/uploads/2017/06/mui%C3%A9.png"
-            width={300}
-            height={184}
-          />
-        </div>
+          <div style={{ backgroundColor: "blue" }}>
+            <Image
+              src="https://pentagrama.com.br/img/logo.png"
+              width={257}
+              height={55}
+            />
+            <br />
+            <Image
+              src="https://designculture.com.br/wp-content/uploads/2017/06/mui%C3%A9.png"
+              width={300}
+              height={184}
+            />
+          </div>
 
-        <div style={{ backgroundColor: "blue" }}>
-          <Image
-            src="https://pentagrama.com.br/img/logo.png"
-            width={257}
-            height={55}
-            priority={true}
-          />
-          <br />
-          <Image
-            src="https://designculture.com.br/wp-content/uploads/2017/06/mui%C3%A9.png"
-            width={300}
-            height={184}
-            priority={true}
-          />
+          <div style={{ backgroundColor: "blue" }}>
+            <Image
+              src="https://pentagrama.com.br/img/logo.png"
+              width={257}
+              height={55}
+              priority={true}
+            />
+            <br />
+            <Image
+              src="https://designculture.com.br/wp-content/uploads/2017/06/mui%C3%A9.png"
+              width={300}
+              height={184}
+              priority={true}
+            />
+          </div>
         </div>
       </main>
 
