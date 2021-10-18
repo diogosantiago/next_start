@@ -93,7 +93,7 @@ const ReactPage: NextPage = () => {
         </div>
 
         <div style={{ backgroundColor: "blue" }}>
-        <Image
+          <Image
             src="https://pentagrama.com.br/img/logo.png"
             width={257}
             height={55}
@@ -103,7 +103,22 @@ const ReactPage: NextPage = () => {
             src="https://designculture.com.br/wp-content/uploads/2017/06/mui%C3%A9.png"
             width={300}
             height={184}
-            // priority="true"
+          />
+        </div>
+
+        <div style={{ backgroundColor: "blue" }}>
+          <Image
+            src="https://pentagrama.com.br/img/logo.png"
+            width={257}
+            height={55}
+            priority={true}
+          />
+          <br />
+          <Image
+            src="https://designculture.com.br/wp-content/uploads/2017/06/mui%C3%A9.png"
+            width={300}
+            height={184}
+            priority={true}
           />
         </div>
       </main>
