@@ -34,21 +34,21 @@ const Home: NextPage = () => {
             </a>
           </Link>
 
-          <Link href="isg">
+          <Link href="isr">
             <a className={styles.card}>
-              <h2>ISG</h2>
+              <h2>ISR</h2>
             </a>
           </Link>
 
           <Link href="path_without/1">
             <a className={styles.card}>
-              <h2>ISG StaticPath Without Revalidate</h2>
+              <h2>ISR StaticPath Without Revalidate</h2>
             </a>
           </Link>
 
           <Link href="path_with/1">
             <a className={styles.card}>
-              <h2>ISG StaticPath With Revalidate</h2>
+              <h2>ISR StaticPath With Revalidate</h2>
             </a>
           </Link>
 
