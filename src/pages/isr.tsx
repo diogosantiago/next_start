@@ -9,7 +9,7 @@ interface SsgProps {
   elements: [any];
 }
 
-const IsgPage: NextPage<SsgProps> = ({ elements }) => {
+const IsrPage: NextPage<SsgProps> = ({ elements }) => {
   return (
     <div className={styles.container}>
       <Head>
@@ -65,4 +65,4 @@ export async function getStaticProps(context: GetStaticPropsContext) {
   };
 }
 
-export default IsgPage;
+export default IsrPage;
